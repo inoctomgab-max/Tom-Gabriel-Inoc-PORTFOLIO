@@ -1,0 +1,193 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.name{
+    color: white;
+    font-family:  Segoe UI, Arial, sans-serif;
+    color: white;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(50px);
+  font-size: 30px;
+    padding-left: 15px;
+    padding-top: 50px;
+
+
+
+}
+
+.bg-design{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.profile-pic{
+    object-fit: cover;
+    height : 300px;
+    width : 300px;
+    border-radius: 50%;
+    margin-left: 800px;
+    transform: translateY(-150px);
+    border: 2px solid darkred;
+}
+.red{
+    color: #b12020;   
+
+}
+
+
+
+
+.webdev1{/* FOR ASPIRING WEB DEV */
+    color: white;
+    font-family:  Segoe UI, Arial, sans-serif;
+    transform: translateY(50px);
+    font-size: 20px;
+    padding-left: 15px;
+}
+.webdev2{/*FOR brief description */
+    color: white;
+    font-family:  Segoe UI, Arial, sans-serif;
+    transform: translateY(100px);
+    font-size: 20px;
+    padding-left: 15px;
+}
+.introduction {
+    background-color:rgba(50, 51, 51, 0.244);
+    padding: 20px;
+
+}
+
+.navbar{
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+    display: flex;          
+    justify-content: center;  
+    gap: 100px;
+    padding: 10px;   
+    background:rgba(19, 19, 19, 0.934)   
+   
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-family:  Segoe UI, Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.navbar a:hover {
+    color: #b12020;
+    text-decoration: underline;
+} 
+
+.about-me {
+    background-color: rgba(50, 51, 51, 0.244);
+    padding: 20px;
+    color: white;
+    font-family:  Segoe UI, Arial, sans-serif;
+    margin-top: 0px;
+    padding-top: 250px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 250px;
+}
+.about-me-title {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #b12020;
+    font-size: 40px;
+}
+.skills {
+    background-color: rgba(50, 51, 51, 0.244);
+    padding: 20px;
+    color: white;
+    font-family:  Segoe UI, Arial, sans-serif;
+    margin-top: 0px;
+    padding-top: 250px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.skills-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #b12020;
+    padding-top: 50px;
+}    
+
+.projects {
+    background-color: rgba(50, 51, 51, 0.244);
+    padding: 20px;
+    color: white;
+    font-family:  Segoe UI, Arial, sans-serif;
+    margin-top: 0px;
+    padding-top: 250px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sample-projects {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    color:#b12020;
+    font-size: 40px;
+}   
+
+
+
+.project2-img{
+    height: 500px;
+    object-fit: cover;
+    margin-left: 60px;
+}
+
+.contact {
+    background-color: rgba(50, 51, 51, 0.244);
+    padding: 20px;
+    color: white;
+    font-family:  Segoe UI, Arial, sans-serif;
+    margin-top: 0px;
+    padding-top: 250px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #b12020;
+    padding-top: 50px;
+}
+.email a{
+    font-size: 30px;
+    color: #b12020;
+    font-weight: bold;
+}
+.email a:hover{
+    color: #821818;
+    text-decoration: underline;
+}
+.email{
+    color: #b12020;
+    text-decoration: underline;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
